@@ -1,0 +1,36 @@
+dataset = [
+    ["AdMob", "Advertisements", "https://www.google.com/admob/"],
+    ["InMobi", "Advertisements", "http://www.inmobi.com"],
+    ["Google Mobile Ads SDK", "Advertisements", "https://developers.google.com/mobile-ads-sdk"],
+    ["MoPub", "Advertisements", "http://www.mopub.com"],
+    ["AndroidAds", "Advertisements", "https://github.com/nate-eisner/android-ads"],
+    ["Tapjoy", "Advertisements", "http://home.tapjoy.com"],
+
+    ["WinAnalytics", "Analytics", "https://github.com/Winfooz/WinAnalytics"],
+    ["Raincoat", "Analytics", "https://github.com/matteocrippa/Raincoat"],
+    ["gAnalytics", "Analytics", "https://github.com/programmerr47/ganalytics"],
+    ["AnalyticsKit-Android", "Analytics", "https://github.com/busybusy/AnalyticsKit-Android"],
+    ["Tracklytics", "Analytics", "https://github.com/orhanobut/tracklytics"],
+    ["New Relic", "Analytics", "http://newrelic.com"],
+
+    ["Satchel", "Database", "https://github.com/adrielcafe/satchel"],
+    ["ObjectBox", "Database", "https://github.com/objectbox/objectbox-java"],
+    ["DbSync", "Database", "https://github.com/claudiodegio/dbsync"],
+    ["RoomDatabaseBackupAndRestore", "Database", "https://github.com/salehyarahmadi/RoomDatabaseBackupAndRestore"],
+    ["Poirot", "Database", "https://github.com/vinaysshenoy/poirot"],
+    ["SQLiteMaster", "Database", "https://github.com/futuresimple/sqlitemaster"],
+
+    ["AXEmojiView", "Emoji", "https://github.com/Aghajari/AXEmojiView"],
+    ["Emoji-Converter", "Emoji", "https://github.com/AnkitKiet/EmojiConverter"],
+    ["EmojiEverywhere", "Emoji", "https://github.com/chathudan/EmojiEverywhere"],
+    ["Moticons", "Emoji", "https://github.com/javiersantos/Moticons"],
+    ["KitKatEmoji", "Emoji", "https://github.com/crossle/KitKatEmoji"],
+    ["Emojicon", "Emoji", "https://github.com/rockerhieu/emojicon"],
+
+    ["EasyCam", "Camera", "https://github.com/BalakrishnanPT/EasyCam"],
+    ["CameraViewEx", "Camera", "https://github.com/pvasa/cameraview-ex"],
+    ["Lantern", "Camera", "https://github.com/nisrulz/lantern"],
+    ["Fotoapparat", "Camera", "https://github.com/RedApparat/Fotoapparat"],
+    ["CameraView", "Camera", "https://github.com/google/cameraview"],
+    ["Wizard Camera", "Camera", "https://github.com/AlShevelev/WizardCamera"],
+]
