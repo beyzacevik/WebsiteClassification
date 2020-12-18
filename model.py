@@ -134,17 +134,24 @@ def run(data):
         classifier.eval()
         correct = 0.0
         total = 0
+
+        predictions = np.zeros(len(test_instances))
+        groundtruth = np.zeros(len(test_instances))
+
         for i, (d, test_x, test_y) in enumerate(test_instances):
             test_x = torch.from_numpy(test_x).long()
             pred = classifier(test_x)
             pred = pred.detach().numpy()
             pred = np.argmax(pred, 1)
+
+            predictions[i] = pred[0]
+            groundtruth[i] = test_y[0]
+
             total += 1
             if pred[0] == test_y[0]:
                 correct += 1
 
-            print('F1: {}'.format(f1_score(pred[0], test_y[0]>0.5, average="weighted")))
-
+        print('F1: {}'.format(f1_score(groundtruth, predictions, average="weighted",zero_division=1)))
         acc = correct/total*100
 
         if acc > max_acc:
